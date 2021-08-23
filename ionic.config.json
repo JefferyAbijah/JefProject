@@ -1,0 +1,7 @@
+{
+  "name": "WinisFruitsVege",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
