@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "WinisFruitsVege",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

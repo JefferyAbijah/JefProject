@@ -1,0 +1,69 @@
+
+    ion-header{
+        text-align: center;
+      
+        
+    }
+ 
+
+
+
+  
+    
+    ion-card {
+        width: 95%;
+        height: 200px;
+        box-shadow:rgb(4, 0, 20);
+        border-radius: 20px;
+        font-size: xxlarge;
+
+        ion-card{
+            align-content: center;
+        }
+      
+       
+        
+        img {
+            object-fit: contain;
+            width: 100%;
+            transform: scale(1.1, 1.1) rotate(1deg);
+            transition: 600ms all ease-in-out;
+        }
+    }
+    
+    .swiper-slide-active {
+        transform: scale(1.05, 1.05);
+    
+        ion-card {
+            img {
+                transform: scale(1, 1);
+            }
+        }
+    }
+    
+    .swiper-slide {
+        transition: 400ms all ease-in-out;
+    }
+
+   
+    ion-card{
+        font-size:xxlarger;
+        color:saddlebrown;
+        align-content: center;
+    }
+
+    ion-card-content{
+
+      
+        background-color: rgb(210, 224, 12);
+        align-content: center;
+    }
+    
+ion-button{
+    font-size: 14px;
+    color:rgb(26, 27, 1);
+    text-align: center;
+    size: 10px;
+}
+
+

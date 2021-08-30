@@ -1,0 +1,100 @@
+
+    
+<ion-header>
+  <ion-toolbar color="primary">
+   <img src="assets/img/homeimg.png" height="15%" width="40%">
+</ion-toolbar>
+</ion-header>
+
+
+<ion-content> 
+  
+  <ion-slides [options]= "option" class="ion-margin-top">
+ 
+
+  <ion-slide>
+    <ion-card (click)="tomato()">
+    <img src="assets/img/tomatoes.jpg">
+    </ion-card>
+  </ion-slide>
+
+  <ion-slide>
+    <ion-card (click)="dalo()">
+    <img src="assets/img/dalo.jpg">
+    </ion-card>
+  </ion-slide>
+
+  <ion-slide>
+    <ion-card (click)="pine()">
+    <img src="assets/img/pineapple1.jpg">
+    </ion-card>
+  </ion-slide>
+
+  <ion-slide>
+    <ion-card (click)="kavika()">
+      <img src="assets/img/kavika.jpg">
+    </ion-card>
+  </ion-slide>
+
+  <ion-slide>
+    <ion-card (click)="bergine()">
+    <img src="assets/img/eggplant.jpg">
+    </ion-card>
+    </ion-slide>
+
+ 
+ 
+ 
+  </ion-slides>
+ <ion-card>
+
+  <ion-card-content >
+Welcome to Winis Fruits & Vege online App Store. Fresh Organic Produce & Artisan Farm Products.
+We bring the season's best mix of 100% certified-organic produce and hand-crafted farm products
+ conveniently to your door by growing and partnering with local farms and artisans. Each delivery 
+ comes with news from our family farm, delicious recipes, quick tips and the option to customize your
+  box online — we bring our farmers market booth to you!
+  </ion-card-content>
+</ion-card> 
+
+<ion-card-content>
+  <ion-slides [options] ="option" class="ion-margin-bottom">
+    <ion-slide>
+      <ion-card (click)="grown()"><img src="assets/img/FAM.png" alt="Fiji Grown" ></ion-card>
+    </ion-slide>
+    <ion-slide>
+      <ion-card (click)="made()"><img src="assets/img/fijianmade.png" alt="Fijian Made" ></ion-card>
+      </ion-slide>
+    <ion-slide>
+      <ion-card (click)="organic()"><img src=" assets/img/fijianorganic.png" alt="Fijian"></ion-card>
+    </ion-slide>
+  </ion-slides>
+    
+  
+</ion-card-content>
+ 
+<ion-footer>
+   <ion-toolbar color="primary">
+     <ion-title>
+     <div id="container" align="center">
+      
+<ion-button routerLink="" slot="primary" color="warning" expand="round">
+ <ion-icon name="arrow-back-circle"></ion-icon>
+</ion-button>
+
+ <ion-button routerLink="/aboutus" slot="primary" color="warning" expand="round">About Us
+</ion-button>
+
+ <ion-button routerLink="/contact" slot="primary" color="warning" expand="round">
+  <ion-icon name="person-sharp"></ion-icon>
+</ion-button>
+
+
+    </div>
+     </ion-title>
+   </ion-toolbar>
+ </ion-footer> 
+
+</ion-content>
+
+ 
